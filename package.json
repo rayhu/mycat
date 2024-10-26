@@ -1,0 +1,21 @@
+{
+  "name": "mycat",
+  "version": "1.0.0",
+  "description": "My cat is a superhero, and so is yours.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10"
+  }
+}

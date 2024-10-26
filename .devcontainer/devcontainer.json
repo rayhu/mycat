@@ -1,0 +1,19 @@
+{
+    "name": "WeChat Mini Program Dev Environment",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "forwardPorts": [3000],
+    "extensions": [
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "eamodio.gitlens"
+    ],
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "postCreateCommand": "npm install",
+    "remoteUser": "vscode",
+    "mounts": [
+      "source=/Users/rayhu/play/mycat,target=/workspace/mycat,type=bind,consistency=cached"
+    ]
+  }
