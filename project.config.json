@@ -1,0 +1,11 @@
+{
+  "miniprogramRoot": "./",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true
+  },
+  "appid": "your-app-id",
+  "projectname": "pet-superhero-app"
+}
